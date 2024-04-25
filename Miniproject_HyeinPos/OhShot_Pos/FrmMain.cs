@@ -19,6 +19,7 @@ namespace OhShot_Pos
         public FrmMain()
         {
             InitializeComponent();
+            TxtDate.Text = DateTime.Now.ToString("T");
         }
 
         #region 폼로드 이벤트 핸들러 : 로딩창 먼저 띄우기! 
@@ -41,10 +42,19 @@ namespace OhShot_Pos
         }
         #endregion
 
-        #region '포스기종료' 버튼 클릭 이벤트 핸들러
+        #region '포스기 종료' 버튼 클릭 이벤트 핸들러
         private void BtnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+        #endregion
+
+        #region '테이블 클릭' 
+        private void TxtTable1_Click(object sender, EventArgs e)
+        {
+            FrmOrder frm = new FrmOrder(); 
+            frm.StartPosition = FormStartPosition.CenterScreen; 
+            frm.Show(); 
         }
         #endregion
     }

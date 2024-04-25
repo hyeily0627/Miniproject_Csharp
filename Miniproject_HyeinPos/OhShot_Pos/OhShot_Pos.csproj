@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListSet.cs" />
     <Compile Include="FoodCategory.cs" />
     <Compile Include="FoodTotalList.cs" />
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStat.resx">
       <DependentUpon>FrmStat.cs</DependentUpon>
