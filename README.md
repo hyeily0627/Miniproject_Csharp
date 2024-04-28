@@ -7,6 +7,8 @@ C# 미니프로젝트 (MiniProject_3_최종폴더)
 ---------------------------------------------------------------
 
 ## FrmMain.cs 
+![필수](https://github.com/hyeily0627/Miniproject_Csharp/assets/156732476/ade16d5a-cde6-4984-9b5d-26b8fa108909)
+
 ![메인](https://raw.githubusercontent.com/hyeily0627/Miniproject_Csharp/main/images/FrmMain.png)
 - 로그인 첫 이미지 
     - (🚨구현) 버튼 정상 연결
